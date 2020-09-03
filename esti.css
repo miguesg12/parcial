@@ -1,0 +1,265 @@
+body{
+  background: url(fondo.jpg);
+
+}
+h1{
+  position: absolute;
+  left:550px;
+  font-size: 70px;
+    color:#784212;
+  font-family:migue;
+  text-shadow: 5px 5px white;
+}
+
+.minir
+{
+  position: absolute;
+  left: 335px;
+  top:470px;
+  width: 50px;
+  height: 50px;
+  border-color: #784212;
+  border-style: solid;
+  border-radius: 60px;
+  z-index: 2;
+
+
+}
+.minirr
+{
+  position: absolute;
+  top:470px;
+  left: 355px;
+  display: none;
+  height: 180px;
+  width:100px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: migue2;
+  font-size: 25px;
+}
+.minir:active .minirr
+{
+  position: absolute;
+  top: 3px;
+  left:55px;
+  display: block;
+  height: 70px;
+  width:500px;
+  
+}
+
+.minirr2
+{
+  position: absolute;
+  top:470px;
+  left: 355px;
+  display: none;
+  height: 180px;
+  width:100px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: migue2;
+  font-size: 25px;
+}
+.minir2:active .minirr2
+{
+  position: absolute;
+  top: 2px;
+  left:55px;
+  display: block;
+  height: 70px;
+  width:500px;
+}
+.minir2
+{
+  position: absolute;
+  left: 335px;
+  top:590px;
+  width: 50px;
+  height: 50px;
+  border-color: #784212;
+  border-style: solid;
+  border-radius: 60px;
+  z-index: 2;
+}
+  
+.r{
+  position: absolute;
+  left:  80px;
+  top: 460px;
+  width: 200px;
+  height: 200px;
+  background:transparent;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #784212 ;
+  text-align:center;
+  font-family: migue3;
+  font-size: 30px;
+}
+.primero{
+
+   position: absolute;
+   top: 210px;
+   right: 615px;
+   background: transparent;
+   height: 250px;
+   width: 250px;
+   border-radius: 100px;
+  z-index: 1;
+  border-radius: 40px;
+  background-image: url(bandera.png);
+  
+  background-size: cover;
+  display: block;
+}
+.uno{
+ 
+  position: absolute;
+  top: 1150px;
+  left:80px;
+  display: none;
+  height: 200px;
+  width:280px;
+  background-color:transparent;
+  border-radius: 10px;
+  border-style: solid;
+border-color: white;
+font-family: migue4;
+font-size: 17px;
+}
+.primero:hover .uno{
+   position: absolute;
+   top: 270px;
+   right:320px;
+   height: 200px;
+   width: 220px;
+   transition:background 1s, border-radius 1s;
+   display: block;
+   font-family: migue4;
+     font-size: 17px;
+     border-style: solid;
+     border-color:#784212 ;
+}
+@font-face{
+  font-family:migue ;
+  src: url(lolo.otf);
+}
+@font-face{
+  font-family:migue2 ;
+  src: url(lo.ttf);
+}
+@font-face
+{
+  font-family: migue3;
+  src: url(lala.ttf);
+}
+@font-face
+{
+  font-family: migue4;
+  src: url(lili.otf);
+}
+.z{
+    position: absolute;
+  left:70px;
+  top: 60px;
+  width: 225px;
+  height: 320px;
+   border-radius: 60px; 
+  font-size:0px;
+background-size: cover;
+ border-style: solid;
+ border-color: white;
+ background-image: url(gandi3.png);
+
+}
+.z1
+{
+
+  position: absolute;
+  top:70px;
+  left: 180px;
+  display: none;
+  height: 280px;
+  width:200px;
+  background-image: linear-gradient(to left, white 50%, #FFD49A 100%);
+  border-radius: 10px;
+}
+.z:active .z1{
+   position: absolute;
+  top: 30px;
+  left:280px;
+  display: block;
+  height: 280px;
+  width:240px;
+  background-image: linear-gradient(to left,#FFD49A  50%, white 100%);
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+}
+ .tv
+{
+  font-family: migue2;
+  font-size: 20px;
+  color: brown;
+  
+}
+
+.y{
+  position: absolute;
+   top: 470px;
+   right: 420px;
+   background: black;
+   height: 220px;
+   width: 620px;
+   border-radius: 100px;
+  z-index: 2;
+  border-radius: 40px;
+
+  
+}
+.y:hover .y1{
+   display: block;
+   
+}
+.y1
+{
+  position: absolute;
+  bottom:20px;
+  left: 80px;
+  height: 180px;
+  width: 410px;
+  background-color:aqua;
+  border-radius: 30px;
+  z-index: 2;
+  display: none;
+  font-size: 20px;
+  font-family: migue2;
+}
+.text
+{
+  background-color: aqua;
+  color: black;
+  width: 250px;
+  height: 290px;
+  font-size: 20px;
+  top:165px;
+  left:840px;
+  font-family: migue2;
+  z-index: 3;
+  position: absolute;
+  border-radius: 35px;
+  text-align:center;
+}
+.ghandi
+{
+position: absolute;
+  background-image: url(gandi.png);
+  background-size: cover;
+  width: 500px;
+  height:500px;
+  top: 40px;
+  left:950px;
+
+}
